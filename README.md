@@ -1,26 +1,32 @@
-# Product Management System
+# 📦 Product Management System
 
-A full-stack Product Management System developed using **ReactJS, Spring Boot, REST API, and MySQL**.
+A full-stack **Product Management System** developed using **ReactJS, Spring Boot, REST API, and MySQL**.
 
-## Features
+The application allows users to perform complete **CRUD operations** for managing product information through a simple and user-friendly interface.
 
-* Add/Register new products
-* View all products
-* View product by ID
-* Update product details
-* Delete products
-* REST API integration between ReactJS and Spring Boot
-* MySQL database integration
+---
 
-## Tech Stack
+## ✨ Features
+
+* ➕ **Add Product** – Register new products
+* 📋 **View All Products** – Display all available products
+* 🔍 **View Product by ID** – Search a specific product
+* ✏️ **Update Product** – Modify existing product details
+* 🗑️ **Delete Product** – Remove products
+* 🔗 **REST API Integration** – ReactJS frontend connected with Spring Boot backend
+* 🗄️ **MySQL Integration** – Store and manage product data
+
+---
+
+## 🛠️ Technologies Used
 
 ### Frontend
 
 * ReactJS
 * JavaScript
-* Bootstrap
 * HTML
 * CSS
+* Bootstrap
 * Axios
 
 ### Backend
@@ -35,15 +41,17 @@ A full-stack Product Management System developed using **ReactJS, Spring Boot, R
 
 * MySQL
 
-## Project Structure
+---
+
+## 🏗️ Project Structure
 
 ```text
 product-management-system/
+│
 ├── backend/
 │   └── PMS/
 │       ├── src/
-│       ├── pom.xml
-│       └── ...
+│       └── pom.xml
 │
 └── frontend/
     └── pms-frontend_app/
@@ -53,61 +61,55 @@ product-management-system/
         └── ...
 ```
 
-## Application Modules
+---
 
-### Product Management
+## 🖥️ Application Screenshot
 
-The application provides CRUD operations for managing product information:
+![Product Management System](frontend/pms-frontend_app/Screenshot%202026-09-25%20131950.png)
 
-* Create Product
-* View All Products
-* View Product By ID
-* Update Product
-* Delete Product
+---
 
-## How to Run
+## 🚀 How to Run
 
 ### Backend
 
-1. Open the `backend/PMS` project in Spring Tool Suite, Eclipse, or IntelliJ IDEA.
-2. Configure MySQL database details in `application.properties`.
+1. Open the `backend/PMS` project in **STS, Eclipse, or IntelliJ IDEA**.
+2. Configure the MySQL database details in `application.properties`.
 3. Run the Spring Boot application.
 
 ### Frontend
 
-1. Open the `frontend/pms-frontend_app` folder.
-2. Install dependencies:
-
 ```bash
+cd frontend/pms-frontend_app
 npm install
-```
-
-3. Start the React application:
-
-```bash
 npm start
 ```
 
-The frontend communicates with the Spring Boot backend through REST APIs.
+The ReactJS frontend communicates with the Spring Boot backend using REST APIs.
 
-## Project Type
+---
 
-Academic / Institute Project
+## 🎯 Project Type
 
-## Learning
+**Academic / Institute Project**
+
+---
+
+## 📚 Learning
 
 This project helped me practice:
 
 * Full-stack application development
-* ReactJS frontend development
-* Spring Boot REST APIs
+* ReactJS and Spring Boot integration
+* REST API development
 * CRUD operations
 * MySQL database integration
-* Frontend-backend integration
-* Basic project structure and API communication
+* Frontend and backend communication
 
-## Author
+---
+
+## 👨‍💻 Author
 
 **Rupesh Ghadge**
 
-GitHub: [rupesshhh-coder](https://github.com/rupesshhh-coder)
+🔗 GitHub: [rupesshhh-coder](https://github.com/rupesshhh-coder)
