@@ -65,8 +65,7 @@ product-management-system/
 
 ## 🖥️ Application Screenshot
 
-![Product Management System](frontend/pms-frontend_app/Screenshot%202026-09-25%20131950.png)
-
+<img src="frontend/pms-frontend_app/Screenshot%202026-09-25%20131950.png" alt="Product Management System" width="700">
 ---
 
 ## 🚀 How to Run
